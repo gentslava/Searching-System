@@ -1,0 +1,53 @@
+body {
+	width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.header {
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+h1 {
+	font-size: 20px;
+}
+.link {
+	margin-bottom: 5px;
+}
+.name {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+.link a {
+	color: black;
+	font-size: 14px;
+}
+.name a {
+	color: darkblue;
+	font-size: 18px;
+}
+.name a:visited {
+	color: purple;
+}
+.text {
+	margin-top: 5px;
+	font-size: 16px;
+}
+.keyword {}
+.prev_next {
+	text-align: center;
+	font-size: 18px;
+}
+.prev_next a {
+	color: darkblue;
+}
+.prev {
+	margin-right: 20px;
+}
+.next {
+	margin-left: 20px;
+}
